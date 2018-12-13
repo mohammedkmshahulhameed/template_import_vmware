@@ -192,6 +192,61 @@
       "immutable": false,
       "group_name": "virtualmachine"
     }
+    {
+      "name": "disk_1_unit_number",
+      "type": "string",
+      "description": "Disk unit number",
+      "hidden": true,
+      "label": "Disk unit number",
+      "secured": false,
+      "required": true,
+      "immutable": false,
+      "group_name": "virtualmachine"
+    },
+    {
+      "name": "disk_1_path",
+      "type": "string",
+      "description": "",
+      "hidden": true,
+      "label": "",
+      "secured": false,
+      "required": true,
+      "immutable": false,
+      "group_name": "virtualmachine"
+    },
+    {
+      "name": "disk_1_label",
+      "type": "string",
+      "description": "",
+      "hidden": true,
+      "label": "",
+      "secured": false,
+      "required": true,
+      "immutable": false,
+      "group_name": "virtualmachine"
+    },
+    {
+      "name": "disk_1_size",
+      "type": "string",
+      "description": "",
+      "hidden": true,
+      "label": "",
+      "secured": false,
+      "required": true,
+      "immutable": false,
+      "group_name": "virtualmachine"
+    },
+    {
+      "name": "disk_1_datastore_id",
+      "type": "string",
+      "description": "",
+      "hidden": true,
+      "label": "",
+      "secured": false,
+      "required": true,
+      "immutable": false,
+      "group_name": "virtualmachine"
+    }
   ],
   "template_output_params": []
 }

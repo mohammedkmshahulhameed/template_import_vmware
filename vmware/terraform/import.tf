@@ -66,6 +66,26 @@ variable "disk_0_datastore_id" {
   description = ""
 }
 
+variable "disk_1_unit_number" {
+  description = ""
+}
+
+variable "disk_1_path" {
+  description = ""
+}
+
+variable "disk_1_label" {
+  description = ""
+}
+
+variable "disk_1_size" {
+  description = ""
+}
+
+variable "disk_1_datastore_id" {
+  description = ""
+}
+
 # vsphere vm
 resource "vsphere_virtual_machine" "vm_1" {
   name             = "${var.name}"
@@ -89,5 +109,11 @@ resource "vsphere_virtual_machine" "vm_1" {
     size = "${var.disk_0_size}"
     datastore_id = "${var.disk_0_datastore_id}"
   }
+  disk {
+    unit_number = "${var.disk_1_unit_number}"
+    path = "${var.disk_1_path}"
+    label = "${var.disk_1_label}"
+    size = "${var.disk_1_size}"
+    datastore_id = "${var.disk_1_datastore_id}"
+  }
 }
-
